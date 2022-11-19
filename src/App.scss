@@ -1,0 +1,41 @@
+body{
+    background-color: #5603a9fd;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#root{
+    max-width:550px;
+    display:flex;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+    background-color: #5d6be7;
+}
+
+.Header{
+    width: 550PX;
+}
+
+
+.Header{
+    div{
+        margin:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            -webkit-filter: invert(100%); /* Safari/Chrome */
+            filter: invert(100%);
+        }
+        h2{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 18px;
+            letter-spacing: -0.075em;
+            color:white;
+        }
+    }
+}
